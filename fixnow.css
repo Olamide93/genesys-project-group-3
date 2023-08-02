@@ -1,0 +1,275 @@
+body{
+    font: 15px/1.5 arial, helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    justify-content: center;
+}
+
+/* NAVIGATION BAR */
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.logoname a{
+    font-size: 30px;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.current{
+    color: rgb(70, 151, 226);;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.button1 a{
+    color: white;
+}
+
+.navbutton{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+}
+
+.button1{
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(70, 151, 226);
+    margin-right: 30px;
+}
+
+.button2{
+    font-size: 15px;
+    color: rgb(70, 151, 226);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header li{
+    padding: 0 15px;
+    list-style-type: none;
+}
+
+/* SECTION */
+.section1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 100px;
+    align-items: center;
+}
+.title1{
+    font-size: 40px;
+}
+.para1{
+    font-size: 20px;
+}
+
+.section2{
+    background-color: rgb(220, 248, 239);
+}
+.section-text{
+    padding: 40px 100px;
+    margin-top: 40px;
+}
+.title2{
+    font-size: 30px;
+}
+.para2{
+    font-size: 18px;
+    color: rgb(99, 99, 99);
+}
+.section3{
+    padding: 40px 100px;
+    margin-top: 40px;
+}
+.section3{
+    text-align: center;
+    padding: 40px 100px;
+    margin-top: 40px;
+}
+
+.admin{
+    text-align: center;
+    margin: 20px;
+}
+.section4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 300px 100px;
+}
+
+.para3{
+    font-size: 12px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 100px;
+}
+.foot1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.foot-right{
+    display: flex;
+    color: rgb(180, 180, 180);
+}
+.foot-links{
+    padding-left: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+
+.foot2{
+    text-align: center;
+    font-size: 13px;
+}
+
+
+/* ------------------SERVICES */
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.product{
+    margin: 20px;
+    background-color: rgb(220, 248, 239);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* ----------------------SIGN IN  */
+.signIn{
+    background-color: rgb(220, 248, 239);
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 16%;
+    margin-bottom: 20%;
+    padding: 5% 5%;
+}
+.textarea input{
+    padding: 10px 10px;
+    width: 97%;
+    color: grey;
+    background: transparent;
+    border: 0.5px solid grey;
+    border-radius: 7px;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#foot2 a{
+    color: rgb(70, 151, 226);
+    text-decoration: none;
+}
+
+.submit{
+    text-align: center;
+}
+.submit-btn{
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(70, 151, 226);
+}
+
+#text1{
+    color: grey;
+}
+.text2{
+    font-size: small;
+}
+.submit-btn2{
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    color: grey;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    background: transparent;
+}
+#text1 a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 100px;
+    }
+    
+    .navbutton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  }
